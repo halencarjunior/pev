@@ -15,9 +15,9 @@ Open source, full-featured, multiplatform command line toolkit to work with PE (
     cd pev
     make
 
-**NOTE**: You may need to install OpenSSL using your package manager. Examples:
+**NOTE**: You may need to install OpenSSL using your package manager. You also may need sudo or root to install. Examples:
 
-    apt install libssl-dev
+    apt install libssl-dev libpcre3 libpcre3-dev
     yum install openssl-devel
 
 ## How to build on macOS
